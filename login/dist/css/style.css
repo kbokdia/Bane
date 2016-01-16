@@ -1,10 +1,9 @@
-/* Custom Stylesheet */
-/**
- * Use this file to override Materialize files so you can update
- * the core Materialize files in the future
- *
- * Made By MaterializeCSS.com
- */
+body{
+    background-image:url('http://www.thedesignwork.com/wp-content/uploads/2011/05/Minimalist-Wallpaper-19.jpg');
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 nav ul a,
 nav .brand-logo {
@@ -16,33 +15,7 @@ p {
 }
 
 .button-collapse {
-    color: #26a69a;
-}
-
-.parallax-container {
-    min-height: 380px;
-    line-height: 0;
-    height: auto;
-    color: rgba(255,255,255,.9);
-}
-.parallax-container .section {
-    width: 100%;
-}
-
-@media only screen and (max-width : 992px) {
-    .parallax-container .section {
-        position: absolute;
-        top: 40%;
-    }
-    #index-banner .section {
-        top: 10%;
-    }
-}
-
-@media only screen and (max-width : 600px) {
-    #index-banner .section {
-        top: 0;
-    }
+    color: #fff;
 }
 
 .icon-block {
@@ -52,6 +25,28 @@ p {
     font-size: inherit;
 }
 
-footer.page-footer {
-    margin: 0;
+.card-top-padding{
+    padding-top: 50px;
+}
+
+.input-field label {
+    left: 0rem;
+}
+
+/* label color */
+.input-field label {
+    color: #3f51b5;
+}
+/* label focus color */
+.input-field input[type=text]:focus + label {
+    color: #3f51b5;
+}
+/* label underline focus color */
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid #3f51b5;
+    box-shadow: 0 1px 0 0 #3f51b5;
+}
+
+.btn-full{
+    width: 100%;
 }
