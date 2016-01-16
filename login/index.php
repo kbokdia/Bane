@@ -6,7 +6,7 @@
     <title>Club Apps - Login</title>
 
     <!-- CSS  -->
-    <!--<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="../dist/css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
     <link href="../dist/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
     <link href="dist/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>

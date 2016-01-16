@@ -1,0 +1,50 @@
+.margin-top-10{
+    margin-top: 10px;
+}
+
+.name-style{
+    margin-left: 10px;
+    font-size: 1.5em;
+    font-weight: 400;
+    color: #303f9f;
+}
+
+.member-img-circle{
+    height: 64px !important;
+    width: 64px !important;
+}
+
+.comment-img-circle{
+    height: 48px !important;
+    width: 48px !important;
+}
+
+.row-margin-none{
+    margin-bottom: 0px;
+}
+
+.delete{
+    position: absolute;
+    right: 10px;
+    color: #eceff1;
+}
+
+.delete:hover{
+    color: #607d8b;
+}
+
+.comment-padding-right{
+    padding-right: 25px !important;
+}
+
+.float-right{
+    float: right;
+}
+
+.margin-right-none{
+    margin-right: 0px !important;
+}
+
+.comment{
+    display: none;
+}
