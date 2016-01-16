@@ -13,7 +13,7 @@ class Users
 {
 
     function add(){
-        echo "Added";
+        echo "New message";
     }
 
     function getUsersList(){
