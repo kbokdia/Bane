@@ -6,7 +6,7 @@
  * Time: 3:09 AM
  */
 
-namespace base;
+namespace Bane\base;
 
 
 use db\Connection;
