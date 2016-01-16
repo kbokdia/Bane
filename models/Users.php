@@ -6,7 +6,7 @@
  * Time: 4:03 PM
  */
 
-namespace models;
+namespace Bane\models;
 
 
 class Users
