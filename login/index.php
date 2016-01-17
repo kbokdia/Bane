@@ -79,6 +79,13 @@
         </form>
     </div>
 
+    <footer class="page-footer pink accent-3" style="padding-top: 0px">
+        <div class="footer-copyright">
+            <div class="container">
+                © 2016 | Powered by <a class="grey-text text-lighten-4" href="#!">The Appsolutes</a>
+            </div>
+        </div>
+    </footer>
     <!--  Scripts-->
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="../dist/script/materialize.min.js"></script>

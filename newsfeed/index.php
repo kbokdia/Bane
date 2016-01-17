@@ -14,31 +14,34 @@
 <body>
 <div class="navbar-fixed">
     <ul id="message" class="dropdown-content">
-        <li><a href="notification/">Notification</a></li>
-        <li><a href="mail/">Mail</a></li>
+        <li><a href="../notification/">Notification</a></li>
+        <li><a href="../mail/">Mail</a></li>
     </ul>
     <ul id="profile" class="dropdown-content">
-        <li><a href="notification/">Account</a></li>
+        <li><a href="..account/">Account</a></li>
         <li class="divider"></li>
-        <li><a href="mail/">Logout</a></li>
+        <li><a href="..logout//">Logout</a></li>
     </ul>
     <nav class="indigo darken-3" role="navigation">
         <div class="nav-wrapper container">
             <a id="logo-container" href="../" class="brand-logo white-text">Club Apps</a>
             <ul class="right hide-on-med-and-down">
-                <li><a href="members/" class="white-text">Members</a></li>
+                <li><a href="../newsfeed" class="white-text">Newsfeed</a></li>
+                <li><a href="../members" class="white-text">Members</a></li>
                 <ul class="left hide-on-med-and-down">
-                    <!-- Dropdown Trigger -->
                     <li><a class="dropdown-button white-text" href="#!" data-activates="message">Message<i class="material-icons right">arrow_drop_down</i></a></li>
                 </ul>
                 <ul class="right hide-on-med-and-down">
-                    <!-- Dropdown Trigger -->
                     <li><a class="dropdown-button white-text" href="#!" data-activates="profile">Name<i class="material-icons right">arrow_drop_down</i></a></li>
                 </ul>
             </ul>
-
             <ul id="nav-mobile" class="side-nav">
-                <li><a href="login.html">Login</a></li>
+                <li><a href="../newsfeed" class="black-text">Newsfeed</a></li>
+                <li><a href="../members" class="black-text">Members</a></li>
+                <li><a href="../notification/">Notification</a></li>
+                <li><a href="../mail/">Mail</a></li>
+                <li><a href="..account/">Account</a></li>
+                <li><a href="..logout//">Logout</a></li>
             </ul>
             <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
         </div>
@@ -281,6 +284,14 @@
         </div>
     </div>
 </div>
+
+<footer class="page-footer pink accent-3" style="padding-top: 0px">
+    <div class="footer-copyright">
+        <div class="container">
+            © 2016 | Powered by <a class="grey-text text-lighten-4" href="#!">The Appsolutes</a>
+        </div>
+    </div>
+</footer>
 
 <!-- Comment Modal -->
 <div id="commentModal" class="modal">

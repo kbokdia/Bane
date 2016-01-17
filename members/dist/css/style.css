@@ -1,0 +1,17 @@
+.platform-badge{
+    padding: 5px;
+}
+
+.padding-top-20{
+    padding-top: 20px;
+}
+
+.padding-right-5{
+    padding-right: 5px;
+}
+
+@media screen and (min-width: 992px){
+    .modal-small{
+        width: 40%;
+    }
+}
